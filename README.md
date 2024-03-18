@@ -6,8 +6,8 @@ r/askreddit subreddit, and grabbing several comments. The workflow of this progr
 - Register with Reddit to create an application [here](https://www.reddit.com/prefs/apps/) and copy the credentials
 - Use the credentials from the previous step to update config.ini (lines 22 -> 24)
 
-Now, you can run `python main.py` to be prompted for which post to choose. Alternatively,
-you can run `python main.py <reddit-post-id>` to create a video for a specific post.
-
-# Half of this is not my code this is a forked version of https://github.com/Shifty-The-Dev/RedditVideoGenerator with some tweaks to support elevenlabs and automatic Youtube uploading
-# essentially this is an **better** version of the original script
+#To get started:
+Go into the config file and set your id and secret to the keys given at the reddit api app creation screen
+Then, (optionally) use the eleven labs api key (this will allow you to have a more dynamic voice, but does cost money; this step is not necessary)
+Navigate to the main.py file and replace the USER in the chrome director to your computer's user name
+Run the file and generate brain rot
